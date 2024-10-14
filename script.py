@@ -13,7 +13,7 @@ driver.get("https://www.google.com")
 
 # Encontrando a caixa de pesquisa e realizando uma ação
 search_box = driver.find_element(by=By.NAME, value="q")
-search_box.send_keys("Asimov Academy")
+search_box.send_keys("fpo")
 search_box.submit()
 
 # Fechando o navegador
